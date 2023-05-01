@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "6273e0b9-4e24-4cb0-9d49-87dca56da840",
+		"name": "tagree",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "все авторы",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://school.loc/api/author",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"author"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "автор детально",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://school.loc/api/author/san-sanich",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"author",
+						"san-sanich"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "создать автора",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://school.loc/api/author/lalala-lala",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"author",
+						"lalala-lala"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "все посты",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://school.loc/api/post",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "новость детально",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://school.loc/api/post/lalala-lala",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"post",
+						"lalala-lala"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "создать новость",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"San Sanich\",\n    \"title\": \"kakaya to nowost\",\n    \"description\": \"sdfg fgds dasg agag agag4tqj q37854tgqo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://school.loc/api/post/add",
+					"protocol": "http",
+					"host": [
+						"school",
+						"loc"
+					],
+					"path": [
+						"api",
+						"post",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
